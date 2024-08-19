@@ -8,7 +8,7 @@
 
 ## 1. Overview
 - Data source: This project used the dataset of a gift retailer and homewares from an online store in the UK from Kaggle.
-- Objectives: The goal of the project is to segment customers based on RFM value. From there, analyze customer characteristics to propose appropriate marketing strategies to maximize revenue.
+- Objectives: The goal of the project is to segment customers based on RFM value and K-means clustering. From there, managers can understand characteristics of each cluster and implement appropriate marketing strategies to maximize revenue.
 
 ## 2. Data cleaning and EDA
 [EDA](https://github.com/thaoong/CustomerSegmentation/blob/main/EDA.ipynb)
@@ -30,6 +30,7 @@
 The data model has 2 tables: 
 - Transaction table have data about the transactions, products info in transaction, customers and day of transactions.
 - CustomerCluster table has data about each cluster and has relationship with Transaction table through column CustomerNo.
+
 ![image](https://github.com/user-attachments/assets/73936383-91a8-4255-8571-3677a47ea68d)
 
 ## 4. Dashboard
